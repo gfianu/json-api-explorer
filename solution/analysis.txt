@@ -1,0 +1,18 @@
+How my code is different from the solution:
+My code is more feature-rich and interactive compared to the solution. I included:
+A “Fetch Posts” button to load posts on demand, instead of automatically fetching on page load.
+Functionality to create new posts with live success/error messages displayed on the page.
+Functionality to delete posts using event delegation.
+Displaying more posts (top 10) and showing them in a styled container (<div class="post">).
+Error handling for both fetching and posting data, with messages shown to the user.
+
+The solution code is simpler: it fetches a limited number of posts on page load, uses alert() 
+for post submission confirmation, and does not include delete functionality or live feedback.
+
+What the solution code adds to my learning or understanding:
+The solution demonstrates a simpler and clean approach for fetching and rendering posts, 
+using concise functions like renderPosts() to handle the DOM efficiently. 
+It shows how to limit API results (?_limit=5) and structure a minimal, functional app 
+without extra features. Comparing both approaches helps me understand the trade-off between 
+feature-rich applications and simpler, maintainable code, and reinforces how to organize functions 
+for clarity and reusability.
